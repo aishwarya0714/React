@@ -26,3 +26,47 @@ Vite (French word for "quick", pronounced /vit/, like "veet") is a build tool th
 <img width="214" alt="image" src="https://github.com/aishwarya0714/React/assets/136805991/b7af1cae-8931-4e6a-b305-2e821eddfd89">
 
 - run npm install for all dependecies
+
+## able to write html through js
+
+index.js
+
+// core foundational library
+import React from 'react';
+// React implimentation on web
+import ReactDOM from 'react-dom/client';
+
+import App from './App';
+
+// ReactDOM- tree stucture 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  
+
+    <App />
+
+);
+
+
+
+App.js
+
+// core foundational library
+import React from 'react';
+// React implimentation on web
+import ReactDOM from 'react-dom/client';
+
+import App from './App';
+
+// ReactDOM- tree stucture 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  
+
+    <App />
+
+);
+
+
